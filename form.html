@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Sign Up or Sign In</title>
+</head>
+<body>
+    <header>
+        <nav aria-label="Global navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="form.html" aria-current="page">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <aside aria-label="About AltSchool">
+        <h2>Africa's Best Innovative Online School</h2>
+        <p>Our programmes are designed to adapt to your time, goals, and resources, empowering you to learn on your own terms</p>
+        <p>Accredited by ASIC (Accreditation Service for International Schools, Colleges, and Universities)</p>
+    </aside>
+    <main>
+        <h1>Sign up or Sign in</h1>
+        <nav aria-label="Form sections">
+            <ul>
+                <li><a href="#signup">Sign up</a></li>
+                <li><a href="#signin">Sign in</a></li>
+            </ul>
+        </nav>
+        
+        <section id="signup" aria-labelledby="signup-heading">
+            <h2 id="signup-heading">Sign up</h2>
+            <p>Create an account to get started on your learning journey</p>
+            <p role="note"><strong>Important:</strong> Your name will appear on your certificate exactly as entered</p>
+            <form action="#" method="post">
+                <p>
+                    <label for="signup-email">Email</label><br>
+                    <input type="email" id="signup-email" name="email" placeholder="john.doe@example.com" autocomplete="email" required>
+                </p>
+                <button type="submit">Continue</button>
+            </form>
+            <p>OR</p>
+            <button type="button">Login with Google</button>
+        </section>
+        <hr>
+
+        <section id="signin" aria-labelledby="signin-heading">
+            <h2 id="signin-heading">Sign in</h2>
+            <p>Enter your email address and password to securely log in to AltSchool Student Portal</p>
+            <form action="#" method="post">
+                <p>
+                    <label for="email">Email address</label><br>
+                    <input type="email" id="email" name="email" placeholder="john.doe@example.com" autocomplete="email" required>
+                </p>
+                <p>
+                    <label for="password">Password</label><br>
+                    <input type="password" id="password" name="password" autocomplete="current-password" required>
+                </p>
+                <button type="submit">Proceed to Dashboard &rarr;</button>
+            </form>
+            <p>Forgot your password? <a href="#">Reset Now!</a></p>
+
+            <p>OR</p>
+            <button type="button">Login with Google</button>
+        </section>
+    </main>
+    <footer>
+        <address>8727 Laurelton PL, Brownsburg, Indiana, USA</address>
+        <p>&copy; 2026 Chosen Jegede. All rights reserved</p>
+    </footer>
+    
+</body>
+</html>
